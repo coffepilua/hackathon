@@ -15,7 +15,7 @@ uvicorn app.main:app --reload   # http://localhost:8000  ·  Swagger: /docs
 
 ## Деплой на Vercel и Neon
 
-Импортируйте корень репозитория в Vercel. В проекте уже настроены FastAPI entrypoint (`api/index.py`), переписывание запросов на приложение и включение HTML/CSS/JS в функцию. Для локального запуска Vercel используйте `vercel dev`.
+Импортируйте корень репозитория в Vercel. В проекте настроена корневая точка входа FastAPI (`index.py`) и включение HTML/CSS/JS в функцию. Для локального запуска Vercel используйте `vercel dev`.
 
 В Vercel задайте переменные окружения для Production (и Preview, если нужно):
 
